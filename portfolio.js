@@ -120,13 +120,63 @@ export const skillsSection = {
     ],
 };
 
-export const experience = {
-    role: "Software Engineer",
-    company: "SkillReactor",
-    companyLogo: "/public/img/icons/common/skillreactor.jpg",
-    date: "Jan 2023 - Present",
-    description: "Working on web development projects using ReactJS, NextJS, VueJS, NodeJS, Golang, and Flutter. I am also working on Cloud Infra-Architecture.",
-    descBullets: [
-        "M"
+export const experience = [
+    {
+        role: "Software Engineer",
+        company: "SkillReactor",
+        companyLogo: "/public/img/icons/common/skillreactor.jpg",
+        date: "Jan 2023 - Present",
+        description: "Working on web development projects using ReactJS, NextJS, VueJS, NodeJS, Golang, and Flutter. I am also working on Cloud Infra-Architecture.",
+        descBullets: [
+            "M"
+        ]
+    },
+    {
+        role: "Web Developer",
+        company: "CodSoft",
+        companyLogo: "/public/img/icons/common/CodSoft.jpg",
+        date: "Nov 2023 - Dec 2023",
+        description: "Working on web applications using ReactJS, MongoDB and CMS.",
+        descBullets: [
+            ""
+        ]
+    }
+];
+
+export const projectSection = [
+    {
+        title: "WorkerPool Servers",
+        description: "WorkerPool Servers is a web application that allows users to create and manage worker pools. The application allows users to create worker pools and assign tasks to workers. The application also allows users to view the status of their worker pools and tasks.",
+        link: "https://github.com/trapper99/workerpool-server",
+    }
+];
+
+export const feedbacks = [
+    {
+        name: "John Doe",
+        feedback: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur."
+    },
+    {
+        name: "Liam Smith",
+        feedback: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur."
+    }
+];
+
+export const seoData = {
+    title: "Stanfolio",
+    description: "I'm a Full Stack Engineer and also a DevOps enthusiast. I specialize in building (and occasionally designing) exceptional websites, mobile applications, and CI/CD pipelines for application deployments and cloud infrastructures.",
+    openGraph: {
+        type: "website",
+        locale: "en-US",
+    },
+    keywords: [
+        "Stanley",
+        "Kariuki",
+        "Full Stack",
+        "Engineer",
+        "DevOps",
+        "Web Developer",
+        "Stanfolio",
+        "Portfolio",
     ]
 }
