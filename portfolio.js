@@ -168,6 +168,10 @@ export const seoData = {
     openGraph: {
         type: "website",
         locale: "en-US",
+        url: "",
+        title: "Stanfolio",
+        description: "A FullStack Engineer and a DevOps enthusiast.",
+        site_name: "Stanfolio",
     },
     keywords: [
         "Stanley",
